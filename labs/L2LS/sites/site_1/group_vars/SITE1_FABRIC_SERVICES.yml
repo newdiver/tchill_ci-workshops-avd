@@ -20,6 +20,13 @@ tenants:
             tags: [ "App" ]
             enabled: true
             ip_virtual_router_addresses:
+              - 10.20.20.1
+          - id: 25
+            name: 'Twenty-five'
+            tags: [ "Wifi" ]
+            enabled: true
+            ip_virtual_router_addresses:
+              - 10.25.25.1
             nodes:
               - node: s1-spine1
                 ip_address: 10.20.20.2/24
