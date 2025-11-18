@@ -237,6 +237,17 @@ vlan_interfaces:
   description: Twenty-five
   shutdown: false
   ip_address: 10.20.20.3/24
+  tenant: MY_FABRIC
+  tags:
+  - App
+- name: Vlan25
+  description: Twenty-five
+  shutdown: false
+  ip_address: 10.25.25.3/24
+  ip_virtual_router_addresses:
+  - 10.25.25.1
+  tenant: MY_FABRIC
+  tags:
   ip_virtual_router_addresses:
   - 10.25.25.1
   tenant: MY_FABRIC
